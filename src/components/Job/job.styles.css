@@ -1,0 +1,60 @@
+.job-card--title {
+  font-weight: 700;
+}
+
+.job-card--header .job-image {
+  width: 10rem;
+}
+
+.job-card--header .job-time {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.job-card--header .drop-down-icon {
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 32px;
+}
+
+.job-card--header .drop-down-icon .btn {
+  border: none;
+  padding: 0;
+  background: none;
+  color: #000;
+}
+
+.job-card--header .company {
+  font-size: 1.25rem;
+}
+
+.job-card.list-group-item {
+  position: relative;
+  border: 2px solid #ededf0;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 2rem 2rem 1.5rem 2rem;
+  color: #000;
+}
+.job-card.list-group-item:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .job-image {
+    margin-right: 1rem;
+  }
+
+  .job-card--header .company {
+    float: left;
+  }
+  .job-card--header .job-time {
+    display: inline;
+  }
+
+  .job-card--header .drop-down-icon {
+    float: right;
+    position: static;
+  }
+}

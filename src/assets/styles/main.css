@@ -1,6 +1,6 @@
 :root {
   --nav-bg: #fff;
-  --body-bg: #fafafb;
+  --body-bg: #fcfcfd;
 }
 body {
   background-color: var(--body-bg) !important;
